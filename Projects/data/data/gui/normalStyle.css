@@ -1,0 +1,11 @@
+* {
+	font-size: 28px;
+}
+
+QListView::item {
+	margin: 16px;
+}
+
+QListView {
+	margin: 16px;
+}
