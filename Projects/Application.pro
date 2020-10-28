@@ -13,13 +13,14 @@ android {
 	ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
 	ANDROID_PACKAGE            = com.dreamnik.stellarium
 	ANDROID_MINIMUM_VERSION    = 21
-	ANDROID_TARGET_VERSION     = 21
+        ANDROID_TARGET_VERSION     = 26
 	ANDROID_APP_NAME           = Stellarium
 
-	DISTFILES += \
-		$$ANDROID_PACKAGE_SOURCE_DIR/AndroidManifest.xml \
-		$$ANDROID_PACKAGE_SOURCE_DIR/res/values/libs.xml \
-		$$ANDROID_PACKAGE_SOURCE_DIR/build.gradle
+#silas
+#	DISTFILES += \
+#		$$ANDROID_PACKAGE_SOURCE_DIR/AndroidManifest.xml \
+#		$$ANDROID_PACKAGE_SOURCE_DIR/res/values/libs.xml \
+#		$$ANDROID_PACKAGE_SOURCE_DIR/build.gradle
 
 	assets.path    = /assets/
 	assets.files   = $$STEL_ASSETS/*  $$_PRO_FILE_PWD_/data/* 

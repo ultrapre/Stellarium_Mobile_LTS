@@ -8,8 +8,8 @@
 #   - make sure there are no spaces in tool paths
 #   - don't use project dependencies, only Stellarium project needs deployment
 
-STEL        = D:/Catalog/Sources/stellarium
-STEL_ASSETS = T:/stellarium/stock/output/share/stellarium
-DESTDIR     = T:/stellarium/destdir/
+STEL        = D:\Silas\Stellarium\stellarium-android_fixes
+STEL_ASSETS = D:\Silas\Stellarium\assets
+DESTDIR     = D:\Silas\Stellarium\orioginal\dast
 
 QMAKE_CXXFLAGS += -Wno-unused-parameter -Wno-unused-variable

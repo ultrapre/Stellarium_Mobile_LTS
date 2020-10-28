@@ -9,9 +9,47 @@ Copy from [Android WIP](https://github.com/Stellarium/stellarium/pull/194) ( *In
 
 
 
+**10/28/2020** - v1.1 (PC 0.18.0+, NDK: android-26)
 
+Windows10x64,
 
-**10/27/2020** - initial version (PC 0.18.0+)
+qt-opensource-windows-x86-5.12.5.exe, check MinGW32+ARMv7+QtScript+MinGW32(Tools)
+
+android-ndk-r19c-windows-x86_64.zip
+
+Qt: 
+
+open Libraries.pro: ARMv7 release
+
+Qt --> Projects --> Build Environment --> ANDROID_NDK_PLATFORM = android-26
+
+ban Make install and Build Android APK
+
+change context in _config.pri, source code still stellarium-android_fixes
+
+don't change make to mingw32-make.exe, keep NDK's compiler(make.exe)
+
+build Libraries
+
+open Application.pro: ARMv7 release
+
+Qt --> Projects --> Build Environment --> ANDROID_NDK_PLATFORM = android-26
+
+Build Android APK --> Application --> Android build SDK: android-30
+
+change line 44 45 to android-26
+
+Compile and meet error in gradle function:
+
+`com.android.build.gradle.tasks.factory.AndroidJavaCompile.setDependencyCacheDir(Ljava/io/File;)V`
+
+comment out `DISTFILES +=`
+
+and it will produce new.
+
+finish
+
+**10/27/2020** - initial version (PC 0.18.0+, NDK: android-21)
 
 rebuild sucessfully.
 

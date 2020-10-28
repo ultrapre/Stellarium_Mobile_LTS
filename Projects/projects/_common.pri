@@ -41,8 +41,8 @@ windows{
 
 
 android {
-	!equals(ANDROID_PLATFORM,"android-21"){
-		error("Requires android-21 platform to work!")
+        !equals(ANDROID_PLATFORM,"android-26"){
+                error("Requires android-26 platform to work!")
 	}
 	
 	DEFINES += \
