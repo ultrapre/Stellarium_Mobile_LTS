@@ -11,7 +11,7 @@ Copy from [Android WIP](https://github.com/Stellarium/stellarium/pull/194) ( *In
 
 
 
-**10/27/2020** - initial version
+**10/27/2020** - initial version (PC 0.18.0+)
 
 rebuild sucessfully.
 
