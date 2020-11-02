@@ -5,6 +5,10 @@ Copy from [Android WIP](https://github.com/Stellarium/stellarium/pull/194) ( *In
 
 welcome for building new version based on after PC 0.18.0 !
 
+## Build notes
+
+If building  fastly, just remove module*.so from ./dest and rebuild Application
+
 ## Build Logs
 
 **10/31/2020** - v1.1.1 (PC 0.18.0+, NDK: android-30)
