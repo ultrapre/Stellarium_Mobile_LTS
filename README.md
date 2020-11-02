@@ -46,7 +46,7 @@ Compile and meet error in gradle function:
 
 `com.android.build.gradle.tasks.factory.AndroidJavaCompile.setDependencyCacheDir(Ljava/io/File;)V`
 
-comment out `DISTFILES +=`
+comment out `DISTFILES +=` and remove android/*
 
 and it will produce new.
 
