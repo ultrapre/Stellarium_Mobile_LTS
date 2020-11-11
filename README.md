@@ -11,6 +11,18 @@ If building  fastly, just remove module*.so from ./dest and rebuild Application
 
 ## Build Logs
 
+**11/11/2020**
+
+using Qt5.15.2, building ——
+
+1.mobile ver on stellarium-android_fixes: run success.
+
+2.mobile ver on 0.18.2: run fail
+
+3.mobile ver on 0.20.3: run fail
+
+4.Windows MSVC static on above 3 version: run success.
+
 **10/31/2020** - v1.1.1 (PC 0.18.0+, NDK: android-30)
 
 qt 5.14.2, ndk-21
