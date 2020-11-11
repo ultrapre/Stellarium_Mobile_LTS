@@ -23,6 +23,8 @@ using Qt5.15.2, building ——
 
 4.Windows MSVC static on above 3 version: run success.
 
+https://github.com/ultrapre/Stellarium_Mobile_LTS/tree/main/Projects_New/v1.1
+
 **10/31/2020** - v1.1.1 (PC 0.18.0+, NDK: android-30)
 
 qt 5.14.2, ndk-21
