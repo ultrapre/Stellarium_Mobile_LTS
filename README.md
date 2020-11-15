@@ -7,9 +7,27 @@ welcome for building new version based on after PC 0.18.0 !
 
 ## Build notes
 
-If building  fastly, just remove module*.so from ./dest and rebuild Application
+*If building  fastly, just remove module\*.so from ./dest and rebuild Application*
+
+build Libraries.pro first and Application then.
 
 ## Build Logs
+
+
+
+**11/15/2020** - v2.0 (PC 0.20.3, Qt5.15.1+NDK21)
+
+0.20.3 run success on Mobile, but plugin not be well compile, and zooming not works.
+
+note: select kits strictly (clang android for C/C++, arm, NDK21)
+
+debug for bugs, enjoy fun!
+
+version and kits:
+
+![image-20201115235653691](assets/image-20201115235653691.png)
+
+![image-20201115235456458](assets\image-20201115235456458.png)
 
 **11/11/2020**
 
@@ -24,6 +42,7 @@ using Qt5.15.2, building ——
 4.Windows MSVC static on above 3 version: run success.
 
 https://github.com/ultrapre/Stellarium_Mobile_LTS/tree/main/Projects_New/v1.1
+
 
 **10/31/2020** - v1.1.1 (PC 0.18.0+, NDK: android-30)
 
