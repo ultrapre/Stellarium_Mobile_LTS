@@ -15,7 +15,9 @@ build Libraries.pro first and Application then.
 
 ## Build Logs
 
+**11/16/2020** - v2.1 ( [Code](https://github.com/DreamNik/stellarium/commit/eeacd9ef0bcd58c0a319527fb2f01519d11b4ed2) , Kits same as v2.0)
 
+it's 0.20.3+, run success, zooming success. No plugins.
 
 **11/15/2020** - v2.0 (PC 0.20.3, Qt5.15.1+NDK21)
 
