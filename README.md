@@ -17,7 +17,11 @@ build Libraries.pro first and Application then.
 
 **11/15/2020** - v2.0 (PC 0.20.3, Qt5.15.1+NDK21)
 
-0.20.3 run success on Mobile, but plugin not be well compile, and zooming not works.
+[source code](https://github.com/ultrapre/stellarium/commit/26d029629a80a67d731a30c4245fafd6dccf4424)
+
+assets203 copied from stellarium installer pack.
+
+0.20.3 run success on Mobile, but plugin not be well compile, and zooming not works. It seems only debug mode's apk can work?
 
 note: select kits strictly (clang android for C/C++, arm, NDK21)
 
