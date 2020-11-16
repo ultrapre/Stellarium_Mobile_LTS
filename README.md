@@ -3,6 +3,8 @@ adaptation of PC version to Mobile (Android mainly, LTS tracking)
 
 Copy from [Android WIP](https://github.com/Stellarium/stellarium/pull/194) ( *Initial Author : [DreamNik](https://github.com/DreamNik)* )
 
+[Codes](https://github.com/DreamNik/stellarium/tree/android_fixes)
+
 welcome for building new version based on after PC 0.18.0 !
 
 ## Build notes
@@ -13,7 +15,9 @@ build Libraries.pro first and Application then.
 
 ## Build Logs
 
+**11/16/2020** - v2.1 ( [Code](https://github.com/DreamNik/stellarium/commit/eeacd9ef0bcd58c0a319527fb2f01519d11b4ed2) , Kits same as v2.0)
 
+it's 0.20.3+, run success, zooming success. No plugins.
 
 **11/15/2020** - v2.0 (PC 0.20.3, Qt5.15.1+NDK21)
 
