@@ -3,6 +3,8 @@ adaptation of PC version to Mobile (Android mainly, LTS tracking)
 
 Copy from [Android WIP](https://github.com/Stellarium/stellarium/pull/194) ( *Initial Author : [DreamNik](https://github.com/DreamNik)* )
 
+[Codes](https://github.com/DreamNik/stellarium/tree/android_fixes)
+
 welcome for building new version based on after PC 0.18.0 !
 
 ## Build notes
