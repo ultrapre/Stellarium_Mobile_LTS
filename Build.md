@@ -6,7 +6,7 @@ build Libraries.pro first and Application then.
 
 ## Build Logs
 
-**11/16/2020** - v2.5 ([Code](https://github.com/ultrapre/stellarium/commit/35b739e1dac74a666e53a1c41b51ae93cc04b055)
+**11/16/2020** - v2.5 ([Code](https://github.com/ultrapre/stellarium/commit/35b739e1dac74a666e53a1c41b51ae93cc04b055))
 
 suit for v0.20.3+
 
