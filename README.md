@@ -9,6 +9,10 @@ It's an adaptation from PC version to Mobile (Android mainly). it will follow th
 
 https://github.com/Stellarium/stellarium/releases
 
+V0.20.3 [Release LTS v0.20.3 release · ultrapre/Stellarium_Mobile_LTS (github.com)](https://github.com/ultrapre/Stellarium_Mobile_LTS/releases/tag/v0.20.3)
+
+V0.19.0 https://github.com/ultrapre/stellarium/releases/tag/v0.19.0
+
 ## Credits
 
 Copy from [Android WIP](https://github.com/Stellarium/stellarium/pull/194) ( *Initial Author : [DreamNik](https://github.com/DreamNik)* )

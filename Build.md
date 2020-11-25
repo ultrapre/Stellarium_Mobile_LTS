@@ -6,6 +6,45 @@ build Libraries.pro first and Application then.
 
 ## Build Logs
 
+---
+
+### Cross Version
+
+**11/25** - Cross build for V0.19.0 success
+
+slow method: 
+
+```
+#elif defined(Q_OS_ANDROID)
+#define FSeek(__FILE, __OFFSET, _MODE) fseek(__FILE, __OFFSET, _MODE)
+
+
+    #if defined(Q_OS_ANDROID)
+        QFileInfo installLocation(QFile::decodeName("assets:"));
+        QFileInfo checkFile(QFile::decodeName("assets:" "/" CHECK_FILE));
+    #elif defined(Q_OS_MAC)
+```
+
+fast method: Merge commits use ` git cherry-pick`  , merge to diff version and fix conflicts.
+
+
+
+Now pass basic version (run success but not pass to publish)
+
+0.14.0
+
+0.17.0
+
+0.18.0 (T1)
+
+0.19.0 passed
+
+0.20.0 
+
+---
+
+### Basic Fix
+
 **11/16/2020** - v2.5 ([Code](https://github.com/ultrapre/stellarium/commit/35b739e1dac74a666e53a1c41b51ae93cc04b055))
 
 suit for v0.20.3+
