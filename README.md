@@ -13,6 +13,12 @@ run overflow by yourself !
 
 [Actions · silas1037/stellarium (github.com)](https://github.com/silas1037/stellarium/actions?query=workflow%3A"Build+for+Android")
 
+1. Fork https://github.com/silas1037/stellarium
+
+2. commit to branch 'CICD_0.20.3'
+
+3. download artifact apk.
+
 ### archive version
 
 https://github.com/Stellarium/stellarium/releases
