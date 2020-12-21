@@ -17,7 +17,7 @@ run overflow by yourself !
 
 2. commit to branch 'CICD_0.20.3'
 
-3. download artifact apk.
+3. download artifact apk. ([Sample](https://github.com/silas1037/stellarium/actions/runs/435457642))
 
 ### archive version
 
