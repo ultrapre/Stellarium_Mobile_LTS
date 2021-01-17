@@ -1,5 +1,6 @@
 # Stellarium_Mobile_LTS
 
+now the main project has been moved to https://github.com/silas1037/stellarium/tree/CICD
 
 ## Basic
 
